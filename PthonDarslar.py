@@ -48,56 +48,56 @@
 # print(son2)    
 
 
-ismlar = ["Bilol","Ali","Aziz","Vali","Guli"]
-n=0
-for i in ismlar:
-    n=n+1
-    print(f"Salom {i}")
-print(f"Kod {n} marta takrorlandi")
+# ismlar = ["Bilol","Ali","Aziz","Vali","Guli"]
+# n=0
+# for i in ismlar:
+#     n=n+1
+#     print(f"Salom {i}")
+# print(f"Kod {n} marta takrorlandi")
     
-sonlar = list(range(9,100,2))
-print(sonlar)
-for i in range(1,6):
-    Kino = input("Yoqtirgan filmlaringizni kiriting >>>\n")
-    print(f"{i} inchi kino {Kino}")
+# sonlar = list(range(9,100,2))
+# print(sonlar)
+# for i in range(1,6):
+#     Kino = input("Yoqtirgan filmlaringizni kiriting >>>\n")
+#     print(f"{i} inchi kino {Kino}")
 
-suhbat =int(input("Bugun nechta odam bilan gaplashdingiz>>>\n"))
-od=[]
-for i in range(suhbat):
-        odam = input(f"{i+1} suhbatlashgan odamingiz kim edi?>>>") 
-        od.append(odam.capitalize())
-print(od)       
+# suhbat =int(input("Bugun nechta odam bilan gaplashdingiz>>>\n"))
+# od=[]
+# for i in range(suhbat):
+#         odam = input(f"{i+1} suhbatlashgan odamingiz kim edi?>>>") 
+#         od.append(odam.capitalize())
+# print(od)       
     
-cars=["audi","bmw","mersides","honda"]
-for i in cars:
-    if i=="bmw":
-        print(i.upper())
-    else:
-        print(i.title())
+# cars=["audi","bmw","mersides","honda"]
+# for i in cars:
+#     if i=="bmw":
+#         print(i.upper())
+#     else:
+#         print(i.title())
 
 
 
-ism = input("Ismingiz nima >>>")
-if ism.lower() != "ali":
-    print(f"Uzur {ism.title()} biz Alini kutyapmiz")
-else:
-    print(f"Salom {ism.title()}")
+# ism = input("Ismingiz nima >>>")
+# if ism.lower() != "ali":
+#     print(f"Uzur {ism.title()} biz Alini kutyapmiz")
+# else:
+#     print(f"Salom {ism.title()}")
 
-javob = float(input("12*6 necchi bo`ladi>>>"))
-if javob != 72:
-    print("Javob xato")
+# javob = float(input("12*6 necchi bo`ladi>>>"))
+# if javob != 72:
+#     print("Javob xato")
               
-yosh = int(input("Yoshingiz nechchida>>>"))
-if yosh <18:
-    print("Uzur sizga mumkin emas")
-else:
-    print("Xush kelibsiz")    
+# yosh = int(input("Yoshingiz nechchida>>>"))
+# if yosh <18:
+#     print("Uzur sizga mumkin emas")
+# else:
+#     print("Xush kelibsiz")    
               
-login = input("Yangi login tallang!!!>>")
-if len(login) <7:
-    print("Sonlar kam to`liqroq kiriting")
-else:
-    print("Siz muvofaqyatli tarzda o`ttingiz")
+# login = input("Yangi login tallang!!!>>")
+# if len(login) <7:
+#     print("Sonlar kam to`liqroq kiriting")
+# else:
+#     print("Siz muvofaqyatli tarzda o`ttingiz")
 
 x, y = 25, 50 # x=25 va y=50
 print("x>y") if x>y else print("x<y")
